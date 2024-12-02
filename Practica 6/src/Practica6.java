@@ -144,6 +144,7 @@ public class Practica6 extends java.awt.Frame {
     }//GEN-LAST:event_ControlBotonBorrar
 
     private void ControlBotonGenerar(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ControlBotonGenerar
+        //Comentario para ProyectoEval1
         for (int i = 0; i < lIzquierda.getItemCount() ; i++) {
             int num = (int) (Math.random() * 100+1);
             if (num <= 60) {
